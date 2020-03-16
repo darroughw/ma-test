@@ -1,0 +1,79 @@
+.score-breakdown {
+    text-align: center;
+    max-width: 80vw;
+    margin: 0 auto;
+
+    h2 {
+        font-weight: 400;
+    }
+    .score {
+        display: inline-flex;
+        align-items: center;
+
+        h5 {
+            font-size: 36px;
+        }
+        .out-of {
+            color: #8e979e;
+            font-size: 28px;
+        }
+    }
+    .test-scores {
+        margin-top: 2rem;
+        text-align: left;
+        h6 {
+            font-size: 24px;
+        }
+    }
+
+    .table-container {
+        display: flex;
+        #breakdown-table {
+            overflow-x: scroll;
+            width: 90%;
+            padding-bottom: 0;
+            border-right: 2px dashed rgba(102, 119, 204, .5);
+            border-left: 2px dashed rgba(102, 119, 204, .5);
+            background: #FFFFFF;
+            height: fit-content;
+            box-shadow: inset -9px 0px 5px 0px rgba(0,0,0,0.1);
+            transform: translate(0,0);
+            table {
+                transition: all 0.3s;
+                width: 100vw;
+                margin-bottom: 0;
+                td, th {
+                    color: #001689;
+                    text-align: center;
+                    border: 2px dashed rgba(102, 119, 204, .5);
+                    padding: 0.5rem 1rem;
+                }
+                th {
+                    padding: 1rem;
+                    font-size: 32px;
+                }
+                td:last-child, th:last-child {
+                    border-right: none;
+                }
+                td:first-child, th:first-child {
+                    border-left: none;
+                }
+            }
+            table.end-table {
+                transform: translate(-20em,0);
+            }
+        }
+        .mattress-btn-ghost {
+            padding: 1.5rem 1rem 1rem 2rem;
+            #more-chevron {
+                transition: all 0.3s;
+            }
+            #more-chevron.table-start {
+                transform: rotate(180deg);
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

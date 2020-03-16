@@ -1,0 +1,15 @@
+.mattress-coupon {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1rem 3rem;
+    border: 2px dashed rgba(102, 119, 204, .5);
+    .coupon-content {
+        font-size: 1rem;
+    }
+    .btn-container {
+        text-align: right;
+    }
+}

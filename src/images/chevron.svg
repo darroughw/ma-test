@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="33px" viewBox="0 0 18 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="957" y="0" width="78" height="103"></rect>
+        <filter x="-19.2%" y="-5.8%" width="125.6%" height="111.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-9" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Branded-LP---Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MA-Dev-Test-A" transform="translate(-1069.000000, -1240.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1200" height="2416"></rect>
+            <g id="Score-Brekadown" transform="translate(78.000000, 982.000000)">
+                <g id="Group-3" transform="translate(0.000000, 238.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Arrows-/-Slider-/-Fw" transform="translate(992.500000, 13.000000)" fill="#1C5F92">
+                        <polygon id="Line" transform="translate(7.405714, 23.698286) rotate(-90.000000) translate(-7.405714, -23.698286) " points="7.40571429 30.0433398 22.2171429 15.2319113 23.277803 16.2925714 7.40571429 32.1646602 -8.46637446 16.2925714 -7.40571429 15.2319113"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

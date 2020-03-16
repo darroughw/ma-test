@@ -1,0 +1,14 @@
+.mattress-header {
+    background-image: url('../images/ma-header-bg.svg');
+    background-size: cover;
+    background-color: #001689;
+    text-align: center;
+    padding: 2.5rem;
+    height: 60vh;
+    h1 {
+        img {
+            width: 271px;
+            height: auto;
+        }
+    }
+}

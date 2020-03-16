@@ -1,0 +1,43 @@
+.testimonials {
+    margin-top: 2rem;
+    text-align: center;
+
+    h2 {
+        font-size: 36px;
+        color: #001689;
+        padding-bottom: 1rem;
+        border-bottom: 3px solid #A6DDE0;
+        width: fit-content;
+        margin: 2rem auto;
+    }
+    .users {
+        display: flex;
+        justify-content: space-evenly;
+        .user-testimonial {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left;
+            padding: 1rem;
+            background-image: url('../images/quote.svg');
+            background-repeat: no-repeat;
+            width: 100%;
+            height: auto;
+            .user {
+                text-align: center;
+                .user-name {
+                    font-style: italic;
+                    color: #001689;
+                }
+            }
+            .user-image {
+                width: 80px;
+                height: 80px;
+                padding: 2px;
+                border: 2px solid #A6DDE0;
+                border-radius: 40px;
+                margin: 1rem auto;
+            }
+        }
+    }
+}
