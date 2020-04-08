@@ -5,7 +5,7 @@ const Testimonials = props => {
     
     return (
         <div className="testimonials">
-            <h2>What Nextar Customers Have to Say</h2>
+            <h2>What Nectar Customers Have to Say</h2>
             <div className="users">
             {props.messages.map((message) => (
                 <div className="user-testimonial">
